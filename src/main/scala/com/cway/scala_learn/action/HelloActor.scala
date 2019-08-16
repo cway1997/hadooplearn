@@ -1,3 +1,5 @@
+package com.cway.scala_learn.action
+
 import akka.actor.{Actor, ActorSystem, Props}
 
 import scala.io.StdIn

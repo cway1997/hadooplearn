@@ -1,3 +1,5 @@
+package com.cway.scala_learn.action
+
 // 服务端发送客户端的消息格式
 case class ServerMessage(msg: String)
 

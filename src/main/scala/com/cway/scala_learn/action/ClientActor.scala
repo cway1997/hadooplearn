@@ -1,3 +1,5 @@
+package com.cway.scala_learn.action
+
 import akka.actor.{Actor, ActorSelection, ActorSystem, Props}
 import com.typesafe.config.ConfigFactory
 
@@ -14,6 +16,10 @@ class ClientActor(host: String, port: Int) extends Actor {
   }
 
   // mailbox ->receive
+  /**
+    *
+    * @return
+    */
   override def receive: Receive = { // shit
     case "start" => println("2018天猫精灵为您服务！")
     case msg: String => { // shit
